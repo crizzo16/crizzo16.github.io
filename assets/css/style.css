@@ -1,0 +1,193 @@
+/* The whole page */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url('../images/concrete_seamless.png');
+    display: flex;
+    flex-direction: column;
+}
+
+/* The Header */
+header {
+    width: 100%;
+    background: #ffffff;
+    height: 72px;
+    overflow: auto;
+    clear: both;
+    border-bottom: 2px solid #cccccc;
+    background-size: 100%;
+}
+
+.header_content {
+    width: 960px;
+    margin: 0 auto 0 auto;
+}
+
+nav {
+    float: right;
+    height: 18px;
+    text-align: right;
+    width: 30%;
+    color: #777777;
+    padding: 27px 0 27px 0;
+    color: #cccccc;
+}
+
+h1, h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#my_name {
+    color: #ffffff;
+    background: #4aaaa5;
+    margin: 0;
+    padding: 20px;
+    width: 20%;
+    text-align: center;
+    float: left;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.header_link {
+    padding: 3px;
+    color: #777777;
+}
+
+.active {
+    color: #4aaaa5;
+    padding: 3px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #cccccc;
+}
+
+/* General Content */
+.content {
+    width: 900px;
+    margin: 30px auto 30px auto;
+    background: #ffffff;
+    padding: 30px;
+}
+
+.not_footer {
+    flex: 1 0 auto;
+}
+
+.page_title {
+    color: #4aaaa5;
+    border-bottom: 2px solid #cccccc;
+    padding-bottom: 10px;
+    margin-bottom:30px;
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* About Me Page*/
+#me {
+    height: 300px;
+    float: left;
+    margin: 0 20px 10px 0;
+    border: 2px ridge #cccccc;
+    border-radius: 5px;
+}
+
+p {
+    color: #777777;
+    line-height: 25px;
+}
+
+
+/* Contact Form */
+input {
+    width: 890px;
+    padding: 5px;
+    margin: 5px 0 15px 0;
+}
+
+#submit {
+    width: 10%;
+    color: #ffffff;
+    background: #4aaaa5;
+    border: 1px solid;
+    border-color: #cccccc;
+    cursor: pointer;
+    padding: 8px 0 8px 0;
+}
+
+#submit:hover {
+    background: #cccccc;
+}
+
+#message {
+    width: 890px;
+    padding: 5px;
+    margin: 5px 0 15px 0;
+}
+
+
+/* Portfolio Images*/
+.folio_img {
+    width: 100%;
+}
+
+.description {
+    color: #ffffff;
+    background: #4aaaa5;
+    width: 86%;
+    padding: 7%;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    bottom: 10px;
+    font-size: 0.83em;
+    font-weight: bold;
+}
+
+.description:hover {
+    color: #777777;
+    background: #cccccc;
+}
+
+.image-desc {
+    float: left;
+    margin: 0 10% 5% 0;
+    width: 30%;
+    position: relative;
+}
+
+.images {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#last_image {
+    margin-bottom: 0;
+}
+
+
+/* Footer */
+footer {
+    background: #666666;
+    color: #cccccc;
+    text-align:center;
+    padding: 15px 0 10px 0;
+    flex-shrink: 0;
+    width: 100%;
+    border-top: 5px solid #4aaaa5;
+    font-size: 0.67em;
+    font-weight: bold;
+}
