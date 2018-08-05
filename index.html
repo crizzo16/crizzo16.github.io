@@ -1,56 +1,132 @@
 <!DOCTYPE html>
-<html lang='en-us'>
-    <head>
-        <meta charset='UTF-8'>
-        <title>About Celia</title>
-        <link rel='stylesheet' type='text/css' href='assets/css/reset.css'>
-        <link rel='stylesheet' type='text/css' href='assets/css/style.css'>
+<html>
 
-        <!-- Other Style Sheets -->
-        <!--
-            Same layout, space inspired colors
-            <link rel='stylesheet' type='text/css' href='assets/css/space.css'>
-        -->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Celia Rizzo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
 
-        <!--
-            Same layout, colored to mimic a tree
-            <link rel='stylesheet' type='text/css' href='assets/css/tree.css'>
-        -->
-    </head>
-    <body>
-        <div class='not_footer'>
-            <header>
-                <div class='header_content'>
-                    <h1 id='my_name'>Celia Rizzo</h1>
-                    <nav>
-                        <a href='index.html' class='active'>About</a> |
-                        <a href='portfolio.html' class='header_link'>Portfolio</a> |
-                        <a href='contact.html' class='header_link'>Contact</a>
-                    </nav>
-                </div>
-            </header>
-    
-            <div class='content'>
-                <h2 class='page_title'>About Me</h2>
-                
-                <img src='assets/images/me.jpg' alt='A Picture of Celia Rizzo' id='me'/>
-
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pharetra ante euismod varius pharetra. Morbi tempus, sapien ac egestas vehicula, justo dui iaculis augue, id rutrum velit mi id diam. Suspendisse ac sodales ante, sed ultricies urna. Aenean metus velit, lacinia in nisi sed, imperdiet iaculis augue. Aliquam sed nunc blandit, dictum justo eget, feugiat sapien. Aliquam quis velit eget tellus vulputate pharetra. Fusce gravida pretium gravida. Quisque venenatis imperdiet magna, vel vestibulum neque porta et. Nullam euismod lacus eu diam maximus, et pharetra purus sodales. Vivamus auctor, augue vitae interdum tincidunt, enim elit rhoncus urna, at tempor nisl odio vehicula massa. Nullam ut cursus dolor. Etiam venenatis, lorem non vestibulum interdum, est mauris efficitur libero, a aliquet nisi sem sed nisl.
-                </p>
-
-                <p>
-                    Curabitur sed efficitur ante. Nunc sed rhoncus nulla, porta dictum mi. Etiam non elit at massa aliquet bibendum. Integer sit amet pretium nisi. Donec gravida elit nec turpis rutrum consectetur. Pellentesque ut diam lectus. Duis velit felis, commodo in est sed, volutpat varius felis. Sed ut luctus risus, id tristique odio. Aenean suscipit urna eu vestibulum iaculis. Integer congue nibh eu tortor tristique, vel vestibulum sapien semper. Vivamus a arcu id nisl dignissim molestie non sit amet odio. Aliquam erat volutpat.
-                </p>
-
-                <p>
-                    Suspendisse elit mauris, fermentum vitae interdum vel, dictum a ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam ultrices, ligula non tempor tempor, dui enim euismod ligula, tempor vehicula dolor leo sed eros. Proin accumsan condimentum nunc. Praesent lectus orci, tincidunt eget venenatis eget, venenatis nec erat. Nullam congue iaculis tellus, nec rutrum risus egestas quis. Donec scelerisque justo ligula, sit amet hendrerit mi ornare nec. Aenean sit amet orci nec lectus pellentesque mollis. Sed nisl neque, tempor vitae dapibus in, mollis placerat metus. Morbi aliquet lorem sit amet nisl mollis, vel gravida lorem tempus.
-                </p>
+<body>
+        <div class="parallax-container" id="jumbotron">
+        <header>
+            <h1>Celia Rizzo</h1>
+        </header>
+    </div>
+    <div class="content">
+        <nav>
+            <!-- further functionality will be included to make the menu responsive -->
+            <!-- <input type="checkbox" id="nav" class="hidden">
+            <label for="nav" class="nav-btn">
+                <i></i>
+                <i></i>
+                <i></i>
+            </label> -->
+            <div class="logo">
+                <a href="#jumbotron">Celia Rizzo</a>
             </div>
+            <div class="nav-wrapper">
+                <ul>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="subsection" id="about">
+            <h2>About</h2>
+            <img src="./assets/images/me.jpg" alt="Celia Rizzo" id="me" />
+            <p class="about-p">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pharetra ante euismod varius pharetra. Morbi tempus, sapien ac
+                egestas vehicula, justo dui iaculis augue, id rutrum velit mi id diam. Suspendisse ac sodales ante, sed ultricies
+                urna. Aenean metus velit, lacinia in nisi sed, imperdiet iaculis augue. Aliquam sed nunc blandit, dictum
+                justo eget, feugiat sapien. Aliquam quis velit eget tellus vulputate pharetra. Fusce gravida pretium gravida.
+                Quisque venenatis imperdiet magna, vel vestibulum neque porta et. Nullam euismod lacus eu diam maximus, et
+                pharetra purus sodales. Vivamus auctor, augue vitae interdum tincidunt, enim elit rhoncus urna, at tempor
+                nisl odio vehicula massa. Nullam ut cursus dolor. Etiam venenatis, lorem non vestibulum interdum, est mauris
+                efficitur libero, a aliquet nisi sem sed nisl.
+            </p>
+            <p class="about-p">
+                Curabitur sed efficitur ante. Nunc sed rhoncus nulla, porta dictum mi. Etiam non elit at massa aliquet bibendum. Integer
+                sit amet pretium nisi. Donec gravida elit nec turpis rutrum consectetur. Pellentesque ut diam lectus. Duis
+                velit felis, commodo in est sed, volutpat varius felis. Sed ut luctus risus, id tristique odio. Aenean suscipit
+                urna eu vestibulum iaculis. Integer congue nibh eu tortor tristique, vel vestibulum sapien semper. Vivamus
+                a arcu id nisl dignissim molestie non sit amet odio. Aliquam erat volutpat.
+            </p>
+            <p class="about-p">
+                Suspendisse elit mauris, fermentum vitae interdum vel, dictum a ipsum. Pellentesque habitant morbi tristique senectus et
+                netus et malesuada fames ac turpis egestas. Aliquam ultrices, ligula non tempor tempor, dui enim euismod
+                ligula, tempor vehicula dolor leo sed eros. Proin accumsan condimentum nunc. Praesent lectus orci, tincidunt
+                eget venenatis eget, venenatis nec erat. Nullam congue iaculis tellus, nec rutrum risus egestas quis. Donec
+                scelerisque justo ligula, sit amet hendrerit mi ornare nec. Aenean sit amet orci nec lectus pellentesque
+                mollis. Sed nisl neque, tempor vitae dapibus in, mollis placerat metus. Morbi aliquet lorem sit amet nisl
+                mollis, vel gravida lorem tempus.
+            </p>
         </div>
+        <div class="subsection subsection-f" id="portfolio">
+            <h2>Portfolio</h2>
+            <div class='images'>
+                    <div class='image-desc'>
+                        <img src='assets/images/Star Wars game.png' alt='Star Wars Game' class='folio_img' />
+                        <a href='https://crizzo16.github.io/unit-4-game/starwars.html' class='description'>Star Wars: Ultimate Fighter</a>
+                    </div>
+    
+                    <div class='image-desc'>
+                        <img src='assets/images/Crystal Collector.png' alt='Crystal Collector' class='folio_img' />
+                        <a href='https://crizzo16.github.io/unit-4-game' class='description'>Crystal Collector</a>
+                    </div>
+    
+                    <div class='image-desc'>
+                        <img src='assets/images/Trivia Game.png' alt='Trivia Game' class='folio_img' />
+                        <a href='https://crizzo16.github.io/TriviaGame' class='description'>Lord of the Rings Trivia</a>
+                    </div>
+    
+                    <div class='image-desc'>
+                        <img src='assets/images/Psychic Game.png' alt='Psychic Game' class='folio_img' />
+                        <a href='https://crizzo16.github.io/Psychic-Game' class='description'>The Psychic Game</a>
+                    </div>
+    
+                    <div class='image-desc' id='last_image'>
+                        <img src='assets/images/Word Guess Game.png' alt='Word Guess Game' class='folio_img' />
+                        <a href='https://crizzo16.github.io/Word-Guess-Game' class='description'>Word Guess Game</a>
+                    </div>
+                </div>
+        </div>
+        <div class="subsection" id="contact">
+            <h2>Contact</h2>
+            <form>
+                <p class="full-line" style="text-align:center">I will get back to you as soon as I can.</p>
+                <label>Name</label>
+                <br>
+                <input type="text" id="name-input">
+                <br>
+                <label>Email</label>
+                <br>
+                <input type="email" id="email-input">
+                <br>
+                <label>Message</label>
+                <br>
+                <textarea id="message-input"></textarea>
+                <br>
+                <button id="submit">Submit</button>
+            </form>
+            
+        </div>
+    </div>
 
-        <footer>
-            <h6 id='footer_text'>Copyright &copy;</h6>
-        </footer>
-    </body>
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="assets/javascript/app.js"></script>
+</body>
+
 </html>
